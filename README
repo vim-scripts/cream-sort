@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=310
+
+
+:call Cream_sortfile() will sort the current file alphabetically by line. User is prompted to choose the column of the sort. The function uses the operating system's sort command (both Windows or Unix) for speed since our original use was for 7mb dictionary wordlists(!). (cream-sort actually creates and sorts a temp file copied from the current to preserve the original file since it would be destroyed by the OS during the process.) 
+
+Please notice three other sort libraries included within the script below the advertised first one. They were "research" during the project and may serve certain users better than ours!
+
+This is one of the many custom utilities and functions for gVim from the Cream project (http://cream.sourceforge.net), a configuration of Vim in the vein of Apple and Windows software you already know.
+
+
